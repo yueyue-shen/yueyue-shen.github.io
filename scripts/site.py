@@ -13,6 +13,7 @@ ROOT = Path(__file__).resolve().parent.parent
 # Complete deployment allowlist: archives and source tooling never ship.
 PUBLIC_FILES = (
     "index.html", "404.html", ".nojekyll", "robots.txt", "sitemap.xml", "LICENSE",
+    "google51b83618de64f97b.html",
     "assets/css/main.css", "assets/js/main.js", "assets/img/prof_pic.jpg",
     "assets/img/favicon.png", "assets/pdf/YueyueShen_CV.pdf",
     "assets/img/research/method-framework.webp", "assets/pdf/research/method-framework.pdf",
