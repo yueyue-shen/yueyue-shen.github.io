@@ -1,0 +1,56 @@
+# Default to private: only website and deployment essentials may be tracked.
+*
+
+# Reopen necessary directories; their other contents remain ignored.
+!/.github/
+!/assets/
+!/cv/
+!/projects/
+!/publications/
+!/scripts/
+!/.github/workflows/
+!/assets/css/
+!/assets/fonts/
+!/assets/img/
+!/assets/img/research/
+!/assets/js/
+!/assets/pdf/
+!/assets/pdf/research/
+!/projects/1_project/
+!/projects/2_project/
+!/projects/3_project/
+!/projects/4_project/
+!/projects/5_project/
+
+# Public website files and essential deployment tooling.
+!/.github/workflows/deploy.yml
+!/.gitignore
+!/.nojekyll
+!/404.html
+!/LICENSE
+!/assets/css/main.css
+!/assets/fonts/lora-latin-wght-normal.woff2
+!/assets/fonts/OFL-Lora.txt
+!/assets/img/favicon.png
+!/assets/img/prof_pic.jpg
+!/assets/img/research/method-framework.webp
+!/assets/img/research/collinder-135-cmd.png
+!/assets/img/research/spatial-feh.png
+!/assets/js/main.js
+!/assets/pdf/YueyueShen_CV.pdf
+!/assets/pdf/research/method-framework.pdf
+!/cv/index.html
+!/index.html
+!/projects/1_project/index.html
+!/projects/2_project/index.html
+!/projects/3_project/index.html
+!/projects/4_project/index.html
+!/projects/5_project/index.html
+!/projects/index.html
+!/publications/index.html
+!/robots.txt
+!/scripts/site.py
+!/sitemap.xml
+
+# When adding a website asset, update this allowlist and PUBLIC_FILES
+# in scripts/site.py together. Existing Git history is unaffected.
